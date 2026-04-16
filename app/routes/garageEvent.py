@@ -20,7 +20,6 @@ def recievesEvent(event: SensorEvent):
     event.timestamp = datetime.utcnow()
   
   supabase.table("Events").insert({
-    "side_id": event.side_id,
     "direction": event.direction,
     "timestamp": event.timestamp.isoformat()
   }).execute()
