@@ -15,6 +15,7 @@ origins = [
     "http://127.0.0.1:3000/",
     "https://sensors-ivory.vercel.app/",
     "https://sensors-git-sayeds-branch-imranali17689s-projects.vercel.app/",
+    "https://sensors-nwhaonw2o-imranali17689s-projects.vercel.app/",
 ]
 
 app.add_middleware(
