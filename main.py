@@ -11,9 +11,9 @@ app = FastAPI(
 )
 
 origins = [
-    "http://localhost:3000/",
-    "http://127.0.0.1:3000/",
-    "https://sensors-ivory.vercel.app/",
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+    "https://sensors-ivory.vercel.app",
 ]
 
 app.add_middleware(
